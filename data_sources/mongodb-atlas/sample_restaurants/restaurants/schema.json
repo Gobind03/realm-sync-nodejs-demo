@@ -1,1 +1,10 @@
-{}
+{
+    "properties": {
+        "restaurant_id": {
+            "bsonType": "string"
+        }
+    },
+    "required": [
+        "restaurant_id"
+    ]
+}
