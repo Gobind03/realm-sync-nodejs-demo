@@ -1,0 +1,18 @@
+{
+    "collection": "restaurants",
+    "database": "sample_restaurants",
+    "roles": [
+        {
+            "name": "owner",
+            "apply_when": {
+                "restaurant_id": "%%user.id"
+            },
+            "read": true,
+            "write": true,
+            "insert": true,
+            "delete": true,
+            "search": true,
+            "additional_fields": {}
+        }
+    ]
+}
