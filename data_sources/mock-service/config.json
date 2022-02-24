@@ -1,0 +1,10 @@
+{
+    "name": "mock-service",
+    "type": "mongodb-atlas",
+    "config": {
+        "clusterName": "TestingCluster",
+        "readPreference": "primary",
+        "wireProtocolEnabled": false
+    },
+    "version": 1
+}
